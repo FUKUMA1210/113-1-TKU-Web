@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background159_01cN9.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: rgb(24, 13, 77);
+}
+
+.section {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.section:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+
+h2, h3 {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+
+ul li {
+    padding: 8px 0;
+    color: rgba(0, 0, 0, 0.8);
+    transition: color 0.3s ease;
+}
+
+ul li:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+ul li img {
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+ul li img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: rgba(255, 0, 0, 0.74);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+}
